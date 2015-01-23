@@ -3607,7 +3607,7 @@
 				ORGANIZATIONNAME = Ushahidi;
 				TargetAttributes = {
 					3E6D0321159B54CF00CDB5B7 = {
-						DevelopmentTeam = K4L62494Y2;
+						DevelopmentTeam = DA685ACJNZ;
 					};
 					3EC1B4761757AB1000CFF726 = {
 						DevelopmentTeam = K4L62494Y2;
@@ -5825,6 +5825,7 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
@@ -5859,6 +5860,7 @@
 					"$(BUILT_PRODUCTS_DIR)/G3MiOSSDK/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -5875,7 +5877,7 @@
 		3E6D033B159B54CF00CDB5B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ushahidi Inc. (K4L62494Y2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5888,7 +5890,7 @@
 				INFOPLIST_FILE = Themes/Ushahidi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "126E50AF-E31D-43EE-8A6D-C82AE5DDA65F";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "126E50AF-E31D-43EE-8A6D-C82AE5DDA65F";
 				WRAPPER_EXTENSION = app;
 			};
@@ -5897,7 +5899,7 @@
 		3E6D033C159B54CF00CDB5B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ushahidi Inc. (K4L62494Y2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5910,7 +5912,7 @@
 				INFOPLIST_FILE = Themes/Ushahidi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9D31B280-3B15-47B7-BBDE-FEF3FB29D20A";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9D31B280-3B15-47B7-BBDE-FEF3FB29D20A";
 				WRAPPER_EXTENSION = app;
 			};
