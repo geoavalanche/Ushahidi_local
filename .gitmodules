@@ -1,0 +1,3 @@
+[submodule "G3MiOSSDK"]
+	path = G3MiOSSDK
+	url = https://github.com/geoavalanche/G3MiOSSDK.git
